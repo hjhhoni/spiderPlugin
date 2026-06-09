@@ -8,7 +8,7 @@ from pathlib import Path
 import requests
 from requests.exceptions import SSLError, ConnectionError, ReadTimeout
 
-from extract import extract_to_xlsx, parse_items
+from extract import extract_to_xlsx, parse_items  
 from ua_true import IdentityGenerator
 
 JOB_CATEGORIES = [
